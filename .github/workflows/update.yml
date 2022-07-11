@@ -41,5 +41,5 @@ jobs:
            SSH_HOST: ${{ secrets.HOST }}
            
        - name: Update metadata
-         run: ssh metadata 'ls'
+         run: ssh metadata 'cd schema && git pull'
       
