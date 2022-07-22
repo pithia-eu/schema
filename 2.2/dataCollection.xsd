@@ -69,7 +69,7 @@ Criteria could be a common observation process, an observable property etc.
                             </documentation>
                         </annotation>
                     </element>
-                    <element maxOccurs="unbounded" minOccurs="0" name="subCollection" type="pithia:ObservationCollectionPropertyType">
+                    <element maxOccurs="unbounded" minOccurs="0" name="subCollection" type="pithia:DataCollectionPropertyType">
                         <annotation>
                             <documentation>-- Definition --
                                 Sub-collectiont of the collection.</documentation>
