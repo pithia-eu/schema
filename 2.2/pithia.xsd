@@ -14,5 +14,5 @@ xmlns:pithia="https://metadata.pithia.eu/schemas/2.2" targetNamespace="https://m
     <include schemaLocation="featureOfInterest.xsd"/>
     <include schemaLocation="procedure.xsd"/>
     <include schemaLocation="collectionResults.xsd"/>
-    <include schemaLocation="catalog.xsd"/>
+    <include schemaLocation="catalogue.xsd"/>
 </schema>
