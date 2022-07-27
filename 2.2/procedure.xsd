@@ -210,7 +210,7 @@ NOTE An instance of Instrument class can be an aggregation of instruments.
         <complexContent>
             <extension base="gml:AbstractFeatureType">
                 <sequence>
-                    <element name="identifier" type="pithia:IdentifierPropertyType">
+                    <element name="identifier" type="pithia:PITHIA_IdentifierPropertyType">
                         <annotation>
                             <documentation>-- Definition --
                                 External identifier of the instrument.
@@ -345,7 +345,7 @@ NOTE A platform may be a member of a complex of parent  and child platforms.
         <complexContent>
             <extension base="gml:AbstractFeatureType">
                 <sequence>
-                    <element name="identifier" type="pithia:IdentifierPropertyType">
+                    <element name="identifier" type="pithia:PITHIA_IdentifierPropertyType">
                         <annotation>
                             <documentation>-- Definition --
                                 External identifier of the platform.
@@ -434,7 +434,7 @@ An acquisition type   component  interacts with the feature of interest /samplin
     <complexType abstract="true" name="ProcessType">
         <!-- new start -->
         <sequence>
-            <element name="identifier" type="pithia:IdentifierPropertyType">
+            <element name="identifier" type="pithia:PITHIA_IdentifierPropertyType">
                 <annotation>
                     <documentation>-- Definition --
                         External identifier of the process component (acquisition, computation or composite). 
@@ -479,7 +479,7 @@ NOTE 3 An instance of MO_Operation class can be an aggregation of platform opera
         <complexContent>
             <extension base="gml:AbstractFeatureType">
                 <sequence>
-                    <element name="identifier" type="pithia:IdentifierPropertyType">
+                    <element name="identifier" type="pithia:PITHIA_IdentifierPropertyType">
                         <annotation>
                             <documentation>-- Definition --
                                 External identifier of the operation

@@ -27,7 +27,7 @@ NOTE 1  A project may be a member of a complex of parent  and child-projects.
         <complexContent>
             <extension base="gml:AbstractFeatureType">
                 <sequence>
-                    <element name="identifier" type="pithia:IdentifierPropertyType">
+                    <element name="identifier" type="pithia:PITHIA_IdentifierPropertyType">
                         <annotation>
                             <documentation>-- Definition --
                                 External identifier of the project. 
