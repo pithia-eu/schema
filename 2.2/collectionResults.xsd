@@ -11,7 +11,6 @@ xmlns:pithia="https://metadata.pithia.eu/schemas/2.2" targetNamespace="https://m
     <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
     <import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd"/>
     <import namespace="http://www.opengis.net/om/2.0" schemaLocation="http://schemas.opengis.net/om/2.0/observation.xsd"/>
-    <include schemaLocation="process.xsd"/>
     <element name="CollectionResults" substitutionGroup="gml:AbstractObject" type="pithia:ResultType">
         <annotation>
             <documentation>-- Definition --
