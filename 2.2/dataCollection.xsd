@@ -27,10 +27,10 @@ EXAMPLE A collection including all the conducted observations under the project 
                     <element name="identifier" type="pithia:PITHIA_IdentifierPropertyType">
                         <annotation>
                             <documentation>-- Definition --
-                                External identifier of the observation collection.
+                                External identifier of the data collection.
                                 
                                 -- Description --
-                                NOTE The identifier may be used by an external application to reference an  observation collection.
+                                NOTE The identifier may be used by an external application to reference a data collection.
                                 
                             </documentation>
                         </annotation>
@@ -38,7 +38,7 @@ EXAMPLE A collection including all the conducted observations under the project 
                     <element name="name" type="string">
                         <annotation>
                             <documentation>-- Definition --
-                                Name of the Observation Collection.
+                                Name of the Data Collection.
                                 
                             </documentation>
                         </annotation>
@@ -46,10 +46,10 @@ EXAMPLE A collection including all the conducted observations under the project 
                     <element maxOccurs="1" minOccurs="0" name="description" type="string">
                         <annotation>
                             <documentation>-- Definition --
-Description of the observation collection including  the criteria for its  creation.  
+Description of the data collection including  the criteria for its  creation.  
 
 -- Description --
-Criteria could be a common observation process, an observable property etc.
+Criteria could be a common observation or modelling process, an observable property etc.
 
 
 </documentation>
@@ -58,17 +58,17 @@ Criteria could be a common observation process, an observable property etc.
                     <element maxOccurs="unbounded" minOccurs="0" name="project" type="pithia:ProjectPropertyType">
                         <annotation>
                             <documentation>-- Definition --
-                                A project that the observation collections belongs to.</documentation>
+                                A project that the data collection belongs to.</documentation>
                         </annotation>
                     </element>   
                     <element maxOccurs="unbounded" minOccurs="0" name="relatedParty" type="pithia:ResponsiblePartyInfoPropertyType">
                         <annotation>
                             <documentation>-- Definition --
-                                Individual or organisation related  to the observation collection
+                                Individual or organisation related to the data collection
                             </documentation>
                         </annotation>
                     </element>
-                    <element maxOccurs="unbounded" minOccurs="0" name="subCollection" type="pithia:ObservationCollectionPropertyType">
+                    <element maxOccurs="unbounded" minOccurs="0" name="subCollection" type="pithia:DataCollectionPropertyType">
                         <annotation>
                             <documentation>-- Definition --
                                 Sub-collectiont of the collection.</documentation>
@@ -77,23 +77,23 @@ Criteria could be a common observation process, an observable property etc.
                     <element maxOccurs="unbounded" minOccurs="0" name="additionalMetadata" type="gmd:CI_OnlineResource_PropertyType">
                         <annotation>
                             <documentation>-- Definition --
-Resources for any non ISO conformed  metadata about the Observation Collection.</documentation>
+Resources for any non ISO conformed  metadata about the Data Collection.</documentation>
                         </annotation>
                     </element>
                     <element maxOccurs="unbounded" minOccurs="0" name="isoMetadata" type="gmd:MD_Metadata_PropertyType">
                         <annotation>
                             <documentation>-- Definition --
-ISO   metadata about the Observation Collection.
+ISO metadata about the Data Collection.
 </documentation>
                         </annotation>
                     </element>
                     <element name="query" type="string">
                         <annotation>
                             <documentation>-- Definition --
-                                The CQuery query  that describes the observations that belong to this collection
+                                The CQuery query that describes the observation/modelling data that belong to this collection
                                 
                                 -- Description --
-                                The detailed query in CQuery format that describes the observations that belong to this collection                             
+                                The detailed query in CQuery format that describes the data that belong to this collection                             
                                 
                             </documentation>
                         </annotation>
