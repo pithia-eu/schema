@@ -7,7 +7,7 @@
     <import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd"/>
     <import namespace="http://www.opengis.net/om/2.0" schemaLocation="http://schemas.opengis.net/om/2.0/observation.xsd"/>
     <include schemaLocation="utilities.xsd"/>
-    <element name="Catalogue" substitutionGroup="gml:AbstractObject" type="PITHIA_CatalogueType">
+    <element name="Catalogue" substitutionGroup="gml:AbstractObject" type="pithia:PITHIA_CatalogueType">
         <annotation>
             <documentation>-- Definition --
 A catalogue is a list of entries (that can be events or investigations of various categories, 
