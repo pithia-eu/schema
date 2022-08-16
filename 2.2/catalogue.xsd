@@ -45,7 +45,7 @@ Each entry has phenomenon time (with begin and end times).
                             </documentation>
                         </annotation>
                     </element>
-                    <element maxOccurs="1" minOccurs="0" name="catalogueCategory" type="pithia:CatalogueCategoryPropertyType">
+                    <element maxOccurs="1" minOccurs="0" name="catalogueCategory" type="gml:ReferenceType">
                         <annotation>
                             <documentation>-- Definition --
                                 A category of the catalogue from the ontology disctionary.
@@ -55,12 +55,6 @@ Each entry has phenomenon time (with begin and end times).
                 </sequence>
             </extension>
         </complexContent>
-    </complexType>
-    <complexType name="CatalogueCategoryPropertyType">
-        <sequence>
-            <element ref="pithia:CatalogueCategory"/>
-        </sequence>
-        <attributeGroup ref="gml:OwnershipAttributeGroup"/>
     </complexType>
 <!-- 
 
@@ -163,6 +157,23 @@ the result time (with begin and end), and an optional DOI link to the persistent
                             </documentation>
                         </annotation>
                     </element>   
+                    <element maxOccurs="1" minOccurs="0" name="dataLevel" type="gml:ReferenceType">
+                        <annotation>
+                            <documentation>-- Definition --
+                                Data level designation from the vocabulary.
+                            </documentation>
+                        </annotation>
+                    </element>   
+                    <element name="qualityAssessment" type="pithia:QualityAssessmentType">
+                        <annotation>
+                            <documentation>-- Definition --
+                                Description of the Quality Assessment, including 
+                                (a) scientific quality, 
+                                (b) quality of metadata, and 
+                                (c) operational quality of data resources
+                            </documentation>
+                        </annotation>
+                    </element>    
                 </sequence>
             </extension>
         </complexContent>
