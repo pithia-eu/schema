@@ -281,4 +281,32 @@ Information about online sources from which the dataset, specification, or commu
         </sequence>
         <attributeGroup ref="gml:OwnershipAttributeGroup"/>
     </complexType>
+
+    <element name="QualityAssessment" substitutionGroup="gml:AbstractObject" type="pithia:QualityAssessmentType">
+        <annotation>
+            <documentation>-- Definition --
+The quality of digital research data, as determined by 
+(a) their intrinsic scientific quality, including data quality (DQ) flag and scientific relevance indicator (SRI); 
+(b) quality of metadata that describe the research data; and
+(c) quality data resources. 
+
+</documentation>
+        </annotation>
+    </element>
+    <complexType name="QualityAssessmentType">
+        <sequence>
+            <element maxOccurs="unbounded" minOccurs="1" name="dataQualityFlag" type="gml:ReferenceType">
+                <annotation>
+                    <documentation>-- Definition --
+Data Quality (DQ) flag from the ontology vocabulary.</documentation>
+                </annotation>
+            </element>
+            <element maxOccurs="unbounded" minOccurs="0" name="scienceRelevanceIndicator" type="gml:ReferenceType">
+                <annotation>
+                    <documentation>-- Definition --
+Science Relevance Indicator from the ontology vocabulary.</documentation>
+                </annotation>
+            </element>
+        </sequence>
+    </complexType>
 </schema>
