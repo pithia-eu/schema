@@ -39,12 +39,6 @@ Information about the vertical extent of particular segment of the result.</docu
             </element>
         </sequence>
     </complexType>
-    <complexType name="ResultPropertyType">
-        <sequence minOccurs="0">
-            <element ref="pithia:Result"/>
-        </sequence>
-        <attributeGroup ref="gml:OwnershipAttributeGroup"/>
-    </complexType>
     <element name="OnlineResource" substitutionGroup="gml:AbstractObject" type="pithia:OnlineResourceType">
         <annotation>
             <documentation>-- Definition --
