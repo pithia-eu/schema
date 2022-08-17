@@ -50,6 +50,16 @@ An instance of Computation  provides a) a  description of a process component   
                             </documentation>
                         </annotation>
                     </element>    
+                    <element name="qualityAssessment" type="pithia:QualityAssessmentType">
+                        <annotation>
+                            <documentation>-- Definition --
+                                Description of the Quality Assessment, including 
+                                (a) scientific quality, 
+                                (b) quality of metadata, and 
+                                (c) operational quality of data resources
+                            </documentation>
+                        </annotation>
+                    </element>    
                     <element maxOccurs="unbounded" minOccurs="0" name="documentation" type="pithia:CitationPropertyType">
                         <annotation>
                             <documentation>-- Definition --
@@ -176,6 +186,16 @@ Operation of a platform.
                         <annotation>
                             <documentation>-- Definition --
                                 Data Level of the acquisition result from a controlled vocabulary.
+                            </documentation>
+                        </annotation>
+                    </element>    
+                    <element name="qualityAssessment" type="pithia:QualityAssessmentType">
+                        <annotation>
+                            <documentation>-- Definition --
+                                Description of the Quality Assessment, including 
+                                (a) scientific quality, 
+                                (b) quality of metadata, and 
+                                (c) operational quality of data resources
                             </documentation>
                         </annotation>
                     </element>    
