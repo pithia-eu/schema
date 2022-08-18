@@ -613,7 +613,7 @@ Geographic description of the location  using text or an identifier.
     </complexType>
     
     <!-- new start -->
-    <element name="ProcessCapability" substitutionGroup="gml:AbstractObject" type="pithia:ProcessCapabilityType">
+    <element name="processCapability" substitutionGroup="gml:AbstractObject" type="pithia:ProcessCapabilityType">
         <annotation>
             <documentation>Capabilities of the process </documentation>
         </annotation>
@@ -659,7 +659,7 @@ Geographic description of the location  using text or an identifier.
     </complexType>
     <complexType name="ProcessCapabilityPropertyType">
         <sequence minOccurs="0">
-            <element ref="pithia:ProcessCapability"/>
+            <element ref="pithia:processCapability"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
         <attributeGroup ref="gml:OwnershipAttributeGroup"/>
