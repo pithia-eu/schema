@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:pithia="https://metadata.pithia.eu/schemas/2.2" targetNamespace="https://metadata.pithia.eu/schemas/2.2" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
-    <annotation>
-        <documentation>[WARN-A001] - No package description in UML model</documentation>
-    </annotation>
     <import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
     <import namespace="http://www.isotc211.org/2005/gmd" schemaLocation="http://schemas.opengis.net/iso/19139/20070417/gmd/gmd.xsd"/>
     <include schemaLocation="utilities.xsd"/>
+    <annotation>
+        <documentation>Version 2.2 08/20/2022</documentation>
+    </annotation>
     <element name="Project" substitutionGroup="gml:AbstractFeature" type="pithia:ProjectType">
         <annotation>
             <documentation>-- Definition --
