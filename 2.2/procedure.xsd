@@ -777,16 +777,16 @@ Reference to documentation describing the composite process.</documentation>
 Individual or organisation related  to composite process.</documentation>
                         </annotation>
                     </element>
-                    <element name="computationComponent" maxOccurs="unbounded" minOccurs="0" type="pithia:ComputationPropertyType">
-                        <annotation>
-                            <documentation>-- Definition --
- A component   of computation  type.</documentation>
-                        </annotation>
-                    </element>
                     <element name="acquisitionComponent" maxOccurs="unbounded" minOccurs="0" type="pithia:AcquisitionPropertyType">
                         <annotation>
                             <documentation>-- Definition --
  A component   of acquisition type.</documentation>
+                        </annotation>
+                    </element>
+                    <element name="computationComponent" maxOccurs="unbounded" minOccurs="0" type="pithia:ComputationPropertyType">
+                        <annotation>
+                            <documentation>-- Definition --
+ A component   of computation  type.</documentation>
                         </annotation>
                     </element>
                 </sequence>
