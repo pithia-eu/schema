@@ -122,6 +122,13 @@ A process component which interacts with the feature of interest  (e.g. an atmos
         <complexContent>
             <extension base="pithia:ProcessType">
                 <sequence>
+                    <element name="name" type="string">
+                        <annotation>
+                            <documentation>-- Definition --
+                                Name of the acquisition component.
+                            </documentation>
+                        </annotation>
+                    </element>     
                     <element name="documentation" maxOccurs="unbounded" minOccurs="0" type="pithia:CitationPropertyType">
                         <annotation>
                             <documentation>-- Definition --
