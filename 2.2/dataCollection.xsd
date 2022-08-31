@@ -83,15 +83,6 @@ Criteria could be a common observation or modelling process, an observable prope
                             </documentation>
                         </annotation>
                     </element>
-                    <element name="permission" maxOccurs="1" minOccurs="0" type="gmd:MD_Constraints_PropertyType">
-                        <annotation>
-                            <documentation>-- Definition --
-                              Restrictions on the access and use of  observation's result.
-                                           -- Description --
-                              Restrictions on the access and use of the data collection are known without navigating from the obseravtion to the result. 
-                            </documentation>
-                        </annotation>
-                    </element>
                     <element name="subCollection" maxOccurs="unbounded" minOccurs="0" type="pithia:DataCollectionPropertyType">
                         <annotation>
                             <documentation>-- Definition --
@@ -115,6 +106,15 @@ Criteria could be a common observation or modelling process, an observable prope
                             </documentation>
                         </annotation>
                     </element>    
+                    <element name="permission" maxOccurs="1" minOccurs="0" type="gmd:MD_Constraints_PropertyType">
+                        <annotation>
+                            <documentation>-- Definition --
+                              Restrictions on the access and use of  observation's result.
+                                           -- Description --
+                              Restrictions on the access and use of the data collection are known without navigating from the obseravtion to the result. 
+                            </documentation>
+                        </annotation>
+                    </element>
                     <element name="additionalMetadata" maxOccurs="unbounded" minOccurs="0" type="gmd:CI_OnlineResource_PropertyType">
                         <annotation>
                             <documentation>-- Definition --
