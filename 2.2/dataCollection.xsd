@@ -128,7 +128,7 @@ ISO metadata about the Data Collection.
 </documentation>
                         </annotation>
                     </element>
-                    <element name="query" type="string">
+                    <element name="query" maxOccurs="unbounded" minOccurs="0" type="string">
                         <annotation>
                             <documentation>-- Definition --
                                 The CQuery query that describes the observation/modelling data that belong to this collection
