@@ -54,6 +54,13 @@ Criteria could be a common observation or modelling process, an observable prope
 </documentation>
                         </annotation>
                     </element>
+                    <element name="type" maxOccurs="unbounded" minOccurs="0" type="gml:ReferenceType">
+                        <annotation>
+                            <documentation>-- Definition --
+                                Type of the data collection (instrument or model) from a controlled vocabulary.
+                            </documentation>
+                        </annotation>
+                    </element>    
                     <element name="project" maxOccurs="unbounded" minOccurs="0" type="pithia:ProjectPropertyType">
                         <annotation>
                             <documentation>-- Definition --
@@ -64,6 +71,13 @@ Criteria could be a common observation or modelling process, an observable prope
                         <annotation>
                             <documentation>-- Definition --
                                 Individual or organisation related to the data collection
+                            </documentation>
+                        </annotation>
+                    </element>
+                    <element name="collectionResults" maxOccurs="1" minOccurs="0" type="pithia:CollectionResultsType">
+                        <annotation>
+                            <documentation>-- Definition --
+                                Description of this collection results -- URLs and other online resources
                             </documentation>
                         </annotation>
                     </element>
