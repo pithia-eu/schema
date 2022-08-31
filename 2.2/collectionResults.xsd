@@ -6,7 +6,7 @@
     <annotation>
         <documentation>Version 2.2 08/20/2022</documentation>
     </annotation>
-    <element name="CollectionResults" substitutionGroup="gml:AbstractObject" type="pithia:CollectionResultsType">
+    <element name="PITHIA_CollectionResults" substitutionGroup="gml:AbstractObject" type="pithia:CollectionResultsType">
         <annotation>
             <documentation>-- Definition --
 List of resources for online access to the observation collection results.
@@ -23,18 +23,6 @@ NOTE The result may be  consisted of segments accessible with their own resource
                     <documentation>-- Definition --
 Resource where the observation result ( as a whole or partly ) can be accessed. 
                     </documentation>
-                </annotation>
-            </element>
-            <element maxOccurs="unbounded" minOccurs="0" name="segmentGeographicExtent" type="gmd:EX_GeographicExtent_PropertyType">
-                <annotation>
-                    <documentation>-- Definition --
-Information about the geographic extent of the  particular segment of the result.</documentation>
-                </annotation>
-            </element>
-            <element maxOccurs="unbounded" minOccurs="0" name="segmentVerticalExtent" type="gmd:EX_VerticalExtent_PropertyType">
-                <annotation>
-                    <documentation>-- Definition --
-Information about the vertical extent of particular segment of the result.</documentation>
                 </annotation>
             </element>
         </sequence>
