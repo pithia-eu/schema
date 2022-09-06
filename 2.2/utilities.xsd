@@ -306,7 +306,6 @@ Data Quality (DQ) flag from the ontology vocabulary.</documentation>
 Science Relevance Indicator from the ontology vocabulary.</documentation>
                 </annotation>
             </element>
-        <sequence>
             <element maxOccurs="unbounded" minOccurs="0" name="metadataQualityFlag" type="gml:ReferenceType">
                 <annotation>
                     <documentation>-- Definition --
