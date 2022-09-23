@@ -40,7 +40,7 @@
                     <documentation>for annimation...</documentation>
                 </annotation>
             </element>
-            <element name="cadence" minOccurs="0" maxOccurs="1" type="gml:timeInterval">
+            <element name="cadence" minOccurs="0" maxOccurs="1" type="gml:TimeIntervalLengthType">
                 <annotation>
                     <documentation>Temporal resolution of the observations, if regularly repetitive</documentation>
                 </annotation>
