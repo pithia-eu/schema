@@ -669,17 +669,17 @@ the event of the observation and not to the applied process.
     </element>
     <complexType name="InputOutputType">
         <sequence>
+            <element name="name" maxOccurs="1" minOccurs="0" type="string">
+                <annotation>
+                    <documentation>-- Definition --
+Name  or other identification  of input or output data relevant to a process component.</documentation>
+                </annotation>
+            </element>
             <element name="description" type="mrl:LE_Source_PropertyType">
                 <annotation>
                     <documentation>-- Definition -- 
 Description of  input  or output data relevant to  a process component.
 </documentation>
-                </annotation>
-            </element>
-            <element name="name" maxOccurs="1" minOccurs="0" type="string">
-                <annotation>
-                    <documentation>-- Definition --
-Name  or other identification  of input or output   data relevant to a process component.</documentation>
                 </annotation>
             </element>
         </sequence>
