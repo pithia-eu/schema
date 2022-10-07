@@ -63,7 +63,7 @@
         </sequence>
     </complexType>
     <complexType name="ProcessCapabilitiesType">
-        <sequence minOccurs="1">
+        <sequence minOccurs="1" maxOccurs="unbounded">
             <element ref="pithia:processCapability"/>
         </sequence>
         <attributeGroup ref="gml:AssociationAttributeGroup"/>
