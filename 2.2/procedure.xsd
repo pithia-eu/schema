@@ -612,7 +612,7 @@ A process component which interacts with the feature of interest  (e.g. an atmos
                  <element name="acquisitionCapabilities" minOccurs="1" type="pithia:AcquisitionCapabilitiesPropertyType"/>
                  <element name="computationCapabilities" minOccurs="1" type="pithia:ComputationCapabilitiesPropertyType"/>
             </choice>
-            <element name="timeSpan" minOccurs="0" type="gml:TimePeriod"/>
+            <element name="timeSpan" minOccurs="0" type="gml:TimePeriodType"/>
         </sequence>
     </complexType>
     <complexType name="AcquisitionCapabilitiesPropertyType">
@@ -764,7 +764,7 @@ Description of  input  or output data relevant to  a process component.
     <!--     
          C O M P U T A T I O N
     -->
-    <element name="Computation" substitutionGroup="pithia:Process" type="pithia:ComputationType">
+    <element name="Computation" substitutionGroup="gml:AbstractObject" type="pithia:ComputationType">
         <annotation>
             <documentation>-- Definition --
 A process component which involves only numerical computation.
