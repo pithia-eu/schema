@@ -743,7 +743,7 @@ Description of  input  or output data relevant to  a process component.
         </sequence>
     </complexType>
     <complexType name="InputOutputPropertyType">
-        <sequence>
+        <sequence minOccurs = "0">
             <element ref="pithia:InputOutput"/>
         </sequence>
         <attributeGroup ref="gml:OwnershipAttributeGroup"/>
