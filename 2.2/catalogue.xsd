@@ -90,32 +90,32 @@ Each catalogue entry includes 1+ registered data subsets.
                             </documentation>
                         </annotation>
                     </element>                    
-                    <element maxOccurs="1" minOccurs="0" name="entryDescription" type="string">
+                    <element name="entryDescription" maxOccurs="1" minOccurs="0" type="string">
                         <annotation>
                             <documentation>-- Definition --
                                  A free-text description of the catalogue entry contents.  
                             </documentation>
                         </annotation>
                     </element>
-                    <element maxOccurs="1" minOccurs="0" name="catalogueIdentifier" type="pithia:CatalogueIdentifierPropertyType">
+                    <element name="catalogueIdentifier" maxOccurs="1" minOccurs="0" type="gml:ReferenceType">
                         <annotation>
                             <documentation>-- Definition --
                                 A link to the catalogue that this entry belongs to.
                             </documentation>
                         </annotation>
                     </element>   
+                    <element name="phenomenonTime" minOccurs="1" type="om:TimeObjectPropertyType"/>
                 </sequence>
             </extension>
         </complexContent>
     </complexType>
+<!-- 
     <complexType name="CatalogueIdentifierPropertyType">
         <sequence>
             <element ref="pithia:Catalogue"/>
         </sequence>
         <attributeGroup ref="gml:OwnershipAttributeGroup"/>
     </complexType>
-<!-- 
-
  -->
     <element name="DataSubset" substitutionGroup="gml:AbstractObject" type="pithia:DataSubsetType">
         <annotation>
