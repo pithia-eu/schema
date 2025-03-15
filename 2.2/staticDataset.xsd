@@ -109,11 +109,13 @@ Each dataset entry includes 1+ registered data subsets.
                             </documentation>
                         </annotation>
                     </element>   
-                    <element name="phenomenonTime" minOccurs="1" type="om:TimeObjectPropertyType"/>
+                    <element name="phenomenonTime" minOccurs="0" type="om:TimeObjectPropertyType"/>
                 </sequence>
             </extension>
         </complexContent>
     </complexType>
+
+
     <element name="DataSubset" substitutionGroup="gml:AbstractObject" type="pithia:DataSubsetType">
         <annotation>
             <documentation>-- Definition --
@@ -161,7 +163,8 @@ document, the result time (with begin and end), and an optional DOI link to the 
                             </documentation>
                         </annotation>
                     </element>   
-                    <element name="resultTime" minOccurs="1" type="om:TimeObjectPropertyType"/>
+                    <element name="phenomenonTime" minOccurs="1" type="om:TimeObjectPropertyType"/>
+                    <element name="resultTime" minOccurs="1" maxOccurs="unbounded" type="om:TimeObjectPropertyType"/>
                     <element name="source" minOccurs="0" maxOccurs="unbounded" type="pithia:OnlineResourcePropertyType"/>
                     <element name="doi" minOccurs="0" maxOccurs="unbounded" type="doi:kernelMetadata"/>
                     <element name="dataLevel" maxOccurs="1" minOccurs="0" type="gml:ReferenceType">
