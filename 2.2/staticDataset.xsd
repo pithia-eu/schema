@@ -135,10 +135,10 @@ document, the result time (with begin and end), and an optional DOI link to the 
                             </documentation>
                         </annotation>
                     </element>    
-                    <element name="entryIdentifier" maxOccurs="1" minOccurs="1" type="gml:ReferenceType">
+                    <element name="entryIdentifier" maxOccurs="unbounded" minOccurs="1" type="gml:ReferenceType">
                         <annotation>
                             <documentation>-- Definition --
-                                A link to the StaticDatasetEntry that this data subset belongs to.
+                                Links to the StaticDatasetEntries that this data subset belongs to.
                             </documentation>
                         </annotation>
                     </element>   
