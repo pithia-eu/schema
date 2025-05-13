@@ -58,6 +58,13 @@ Each dataset entry includes 1+ registered data subsets.
                             </documentation>
                         </annotation>
                     </element>   
+                    <element name="featureOfInterest" maxOccurs="1" minOccurs="1" type="om:featureOfInterest">
+                        <annotation>
+                            <documentation>-- Definition --
+                                A dictionary-control list of FOI from ontology of space physics
+                            </documentation>
+                        </annotation>
+                    </element>   
                     <element name="phenomenonTime" minOccurs="0" type="om:TimeObjectPropertyType"/>
                 </sequence>
             </extension>
@@ -107,6 +114,13 @@ document, the result time (with begin and end), and an optional DOI link to the 
                             </documentation>
                         </annotation>
                     </element>
+                    <element name="featureOfInterest" maxOccurs="1" minOccurs="1" type="om:featureOfInterest">
+                        <annotation>
+                            <documentation>-- Definition --
+                                A dictionary-control list of FOI from ontology of space physics
+                            </documentation>
+                        </annotation>
+                    </element>   
                     <element name="dataCollection" maxOccurs="unbounded" minOccurs="0" type="gml:ReferenceType">
                         <annotation>
                             <documentation>-- Definition --
