@@ -10,7 +10,8 @@
     <include schemaLocation="collectionResults.xsd"/>
     <annotation>
         <documentation>Version 1.1 2025-04-04</documentation>
-    </annotation>
+    </annotation>
+
 <!-- 
      ===========================   S T A T I C     D A T A S E T     E N T R Y     =======================================
  -->
@@ -58,7 +59,7 @@ Each dataset entry includes 1+ registered data subsets.
                             </documentation>
                         </annotation>
                     </element>   
-                    <element name="featureOfInterest" maxOccurs="1" minOccurs="1" type="om:featureOfInterest">
+                    <element name="featureOfInterest" maxOccurs="1" minOccurs="1" type="pithia:FeatureOfInterestType">
                         <annotation>
                             <documentation>-- Definition --
                                 A dictionary-control list of FOI from ontology of space physics
@@ -114,7 +115,7 @@ document, the result time (with begin and end), and an optional DOI link to the 
                             </documentation>
                         </annotation>
                     </element>
-                    <element name="featureOfInterest" maxOccurs="1" minOccurs="1" type="om:featureOfInterest">
+                    <element name="featureOfInterest" maxOccurs="1" minOccurs="1" type="pithia:FeatureOfInterestType">
                         <annotation>
                             <documentation>-- Definition --
                                 A dictionary-control list of FOI from ontology of space physics
