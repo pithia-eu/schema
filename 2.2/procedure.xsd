@@ -816,7 +816,7 @@ An instance of Computation  provides a) a  description of a process component   
             <element name="capabilityLinks" maxOccurs="1" minOccurs="0" type="pithia:CapabilityLinksType">
                 <annotation>
                     <documentation>-- Definition --
-                       Links to the capabilities of this Acquisition, each link connects platform and acquisitionCapabilities
+                       Links to the capabilities of this Computation. Each item provides a specific Computation Capabilities description and optionally links it to a Platform.
                     </documentation>
                 </annotation>
             </element>
